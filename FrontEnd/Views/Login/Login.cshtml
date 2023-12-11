@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form id="form" method="post">
+<div>
+<label style="">Tên đăng nhập: </label>
+        <input id="username" style=" border: solid 1px red;width:20%; height:3%" type="text" placeholder="Nhập 6-20 kí tự" pattern=".{6,20}" required />
+</div>
+<div style="margin-top: 1%">
+<label style="padding-right: 35px">Mật khẩu: </label>
+<input id = "password" style=" border: solid 1px red;width:20%; height:3%" type="password" placeholder="Mật khẩu"  required/>
+<input type="radio" onclick="btnShowPassword()"></input>
+</div>
+
+<button type="submit" style="margin-left: 90px; margin-top: 20px; width:100px; height:50px">Đăng nhập</button>
+</form>
+<script>
+    function btnShowPassword() {
+        if (password.type === "password") {
+            password.type = "text";
+        } else {
+            password.type = "password";
+        }
+    }
+
+    document.getElementById('form').addEventListener('submit', function (login) {
+        event.preventDefault();
+        alert('xin chào: ' + document.getElementById('username').value);
+    });
+</script>

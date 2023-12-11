@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z4/huVNCOKipH9eELHddPDFWlWv3B0BYjl+ZI/ZqoYOqSasr2LbnFj7kxslimy6ghrghyTTt1lwyKw9BqKjJ/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sy\\source\\repos\\VMOEntryTest\\Q4\\Q4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Sy\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Sy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Sy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

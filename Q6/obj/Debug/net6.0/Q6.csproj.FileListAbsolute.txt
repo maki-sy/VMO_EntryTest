@@ -1,0 +1,14 @@
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\bin\Debug\net6.0\Q6.exe
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\bin\Debug\net6.0\Q6.deps.json
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\bin\Debug\net6.0\Q6.runtimeconfig.json
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\bin\Debug\net6.0\Q6.dll
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\bin\Debug\net6.0\Q6.pdb
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.AssemblyInfoInputs.cache
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.AssemblyInfo.cs
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.csproj.CoreCompileInputs.cache
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.dll
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\refint\Q6.dll
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.pdb
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\Q6.genruntimeconfig.cache
+C:\Users\Sy\source\repos\VMOEntryTest\Q6\obj\Debug\net6.0\ref\Q6.dll
