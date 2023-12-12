@@ -52,7 +52,7 @@ insert into message (sender_id, receiver_id, type, content, status, created_time
 --Lấy id, username, fullname, avatar: của các user có id =  2, 3.
 select id, username, fullname, avatar from user_profile where id in (2, 3);
 
-
+SELECT * FROM pg_stat_activity;
 --Lấy các bạn bè(gồm thông tin sau: id, username, fullname, avatar) của user có id = 2.
 select a.id, a.username, a.fullname, a.avatar from user_profile a join friend b on a.id = b.receiver_id
 where b.sender_id = 2 AND b.status = 'accepted';
@@ -69,4 +69,11 @@ select b.id as Friend_ID, c.id as Message_ID, c.type, c.status, c.content, c.sen
 from message c join friend b on b.sender_id = c.sender_id and b.receiver_id = c.receiver_id 
 where b.sender_id = 2
 and c.id in (select max(id) from message where sender_id = 2 group by receiver_id);
+
+--Lấy dánh sách 10 user(id, username, avatar, birthday) có số lượng bạn bè nhiều nhất trong hệ thống.
+SELECT a.id, a.username, a.avatar, a.birthday, b.friend_count FROM user_profile a JOIN 
+(SELECT sender_id, COUNT(*) AS friend_count FROM friend WHERE status = 'accepted' GROUP BY sender_id)  --JOIN 2 BẢNG, TRONG ĐÓ BẢNG FRIEND ĐC MODIFIED ĐỂ CÓ CỘT ĐẾM SỐ FRIEND
+b ON a.id = b.sender_id ORDER BY b.friend_count DESC LIMIT 10;
+
+
 
