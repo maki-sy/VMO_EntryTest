@@ -9,9 +9,39 @@ using System.Threading.Tasks;
 namespace Q4
 {
 	internal class ArrIntManager
-	{
-		int[] arrInt = new int[] { 1, 2, 3, 5, 4, 1, 3, 4, 5, 4, 5, 9, 7, 0, 11, 13, 10, 23 };
+	{//                            4        2  2  4        3
+//								   1  1  1  1  2  1  2  3  4 |5| 1	1
+		int[] arrInt = new int[] { 1, 2, 3, 5, 4, 6, 5, 4, 3, 2, 4, 5 }; // MAX: 5+1 = 6
+//								   1  2  3  4  1  2  1  1  1 |1| 3  2
+									
+		public int longestStableSequence()
+		{
+			int len = arrInt.Length;
+			if (len <= 2) return len;
+			List<int> inc = new List<int>(new int[len]); 
+			List<int> dec = new List<int>(new int[len]);
+			int saved = 2;
 
+			for (int i = 0; i < len; i++)
+			{
+				inc[i] = 1;
+				dec[i] = 1;
+			}
+													//incrementing seq. length list
+			for (int i = 1; i < len; i++)
+				if (arrInt[i] >= arrInt[i - 1])
+					inc[i] = inc[i - 1] + 1;                         
+													//decreasing seq. length list
+			for (int i = len - 2; i >= 0; i--)
+				if (arrInt[i] >= arrInt[i + 1])
+					dec[i] = dec[i + 1] + 1;
+
+
+			for (int i = 0; i < len; i++)
+				saved = Math.Max(saved, inc[i] + dec[i] - 1);
+
+			return saved;
+		}
 		public int sumOfArray()
 		{
 			int sum = 0;

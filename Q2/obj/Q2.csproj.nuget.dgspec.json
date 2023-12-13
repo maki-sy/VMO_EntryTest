@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sy\\source\\repos\\VMOEntryTest\\Q2\\Q2.csproj": {}
+    "C:\\Users\\Sy\\source\\repos\\New folder\\VMO_EntryTest\\Q2\\Q2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sy\\source\\repos\\VMOEntryTest\\Q2\\Q2.csproj": {
+    "C:\\Users\\Sy\\source\\repos\\New folder\\VMO_EntryTest\\Q2\\Q2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sy\\source\\repos\\VMOEntryTest\\Q2\\Q2.csproj",
+        "projectUniqueName": "C:\\Users\\Sy\\source\\repos\\New folder\\VMO_EntryTest\\Q2\\Q2.csproj",
         "projectName": "Q2",
-        "projectPath": "C:\\Users\\Sy\\source\\repos\\VMOEntryTest\\Q2\\Q2.csproj",
+        "projectPath": "C:\\Users\\Sy\\source\\repos\\New folder\\VMO_EntryTest\\Q2\\Q2.csproj",
         "packagesPath": "C:\\Users\\Sy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sy\\source\\repos\\VMOEntryTest\\Q2\\obj\\",
+        "outputPath": "C:\\Users\\Sy\\source\\repos\\New folder\\VMO_EntryTest\\Q2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

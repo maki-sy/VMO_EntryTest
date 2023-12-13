@@ -9,3 +9,5 @@ Console.WriteLine(service.sumOfPrimes());
 service.getTrio();
 
 service.longestSubArray(50);
+Console.WriteLine("Longest stable seq:");
+Console.WriteLine(service.longestStableSequence());
